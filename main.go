@@ -75,7 +75,7 @@ func convert(
 		}
 
 		if targetValue == "usd" {
-			converterValue = usdToEur / usdToRub
+			converterValue = 1 / usdToRub
 		}
 
 	case currentValue == "usd":
